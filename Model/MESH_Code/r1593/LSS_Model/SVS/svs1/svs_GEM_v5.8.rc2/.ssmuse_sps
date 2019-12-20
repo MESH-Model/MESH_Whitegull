@@ -1,0 +1,16 @@
+if [[ x"${ATM_MODEL_BNDL}" == x"" ]] ; then
+   . s.ssmuse.dot ENV/SPS/x/5.8.rc2
+elif [[ ${ATM_MODEL_BNDL} != ENV/SPS/x/5.8.rc2 ]] ; then
+   cat 1>&2 <<EOF1
+
+   ** WARNING **
+   Mismatch of current ${ATM_MODEL_BNDL} in your environment and the experiment ENV/SPS/x/5.8.rc2 in 
+   You should probably load this experiment in a new shell.
+
+EOF1
+fi
+export SPS_DEV_UPDATES=""
+if [[ -n "${SPS_DEV_UPDATES}" ]] ; then . s.ssmuse.dot ${SPS_DEV_UPDATES} ; fi
+
+export SPS_DEV_SUITE=
+export SEQ_EXP_HOME=/users/dor/armn/mab/data/storage_model/svs_debug_3280150309

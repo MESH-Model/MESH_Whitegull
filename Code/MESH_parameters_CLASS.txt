@@ -1,0 +1,38 @@
+_ProjectTitle_                                                                                                            01comment line 1
+_Modeller_                                                                                                                02comment line 2
+_Institution_                                                                                                             03comment line 3
+_DEGLAT_      _DEGLON_      _ZRFM_      _ZRFH_      _ZBLD_        -1.0          1             _NL_        _NM_            04DEGLAT/DEGLON/ZRFM/ZRFH/ZBLD/GC/ILW/NL/NM
+    _FCAN-NL1_    _FCAN-BL1_    _FCAN-C1_   _FCAN-G1_   _FCAN-U1_     _LAMX-NL1_    _LAMX-BL1_    _LAMX-C1_   _LAMX-G1_       05Land class type/fcanrow/pamxrow
+_LNZ0-NL1_    _LNZ0-BL1_    _LNZ0-C1_   _LNZ0-G1_   _LNZ0-U1_     _LAMN-NL1_    _LAMN-BL1_    _LAMN-C1_   _LAMN-G1_       06lnz0row/pamnrow
+_ALVC-NL1_    _ALVC-BL1_    _ALVC-C1_   _ALVC-G1_   _ALVC-U1_     _CMAS-NL1_    _CMAS-BL1_    _CMAS-C1_   _CMAS-G1_       07alvcrow/cmasrow
+_ALIC-NL1_    _ALIC-BL1_    _ALIC-C1_   _ALIC-G1_   _ALIC-U1_     _ROOT-NL1_    _ROOT-BL1_    _ROOT-C1_   _ROOT-G1_       08alirow/rootrow
+_RSMN-NL1_    _RSMN-BL1_    _RSMN-C1_   _RSMN-G1_                 _QA50-NL1_    _QA50-BL1_    _QA50-C1_   _QA50-G1_       09rsmnrow/qa50row
+_VPDA-NL1_    _VPDA-BL1_    _VPDA-C1_   _VPDA-G1_                 _VPDB-NL1_    _VPDB-BL1_    _VPDB-C1_   _VPDB-G1_       10vpdarow/vpbprow
+_PSGA-NL1_    _PSGA-BL1_    _PSGA-C1_   _PSGA-NL1_                _PSGB-NL1_    _PSGB-BL1_    _PSGB-C1_   _PSGB-G1_       11psgarow/psgbrow
+_DRN-1_       _SDEP-1_      _FARE-1_    _DDEN-1_                                                                          12drnrow/sdeprow/farerow/ddenrow
+_XSLOPE-1_    _GRKF-1_      _MANN-1_    _KSAT-1_   1                                                                      13xslprow/grkfrow/manrow/WFCIROW/midrow
+_SAND1-1_     _SAND2-1_     _SAND3-1_                                                                                     14sand
+_CLAY1-1_     _CLAY2-1_     _CLAY3-1_                                                                                     15clay
+_ORGM1-1_     _ORGM2-1_     _ORGM3-1_                                                                                     16org
+_TBAR1-1_     _TBAR2-1_     _TBAR3-1_     _TCAN-1_      _TSNO-1_      _TPND-1_                                            17temperature-soil/can/sno/pnd
+_THLQ1-1_     _THLQ2-1_     _THLQ3-1_     _THIC1-1_     _THIC2-1_     _THIC3-1_   _ZPND-1_                                18soil moisture-soil/ice/pnd
+_RCAN-1_      _SCAN-1_      _SNO-1_       _ALBS-1_      _RHOS-1_      _GRO-1_                                             19rcan/scan/sno/albs/rho/gro
+    _FCAN-NL2_    _FCAN-BL2_    _FCAN-C2_   _FCAN-G2_   _FCAN-U2_     _LAMX-NL2_    _LAMX-BL2_    _LAMX-C2_   _LAMX-G2_       05Land class type/fcanrow/pamxrow
+_LNZ0-NL2_    _LNZ0-BL2_    _LNZ0-C2_   _LNZ0-G2_   _LNZ0-U2_     _LAMN-NL2_    _LAMN-BL2_    _LAMN-C2_   _LAMN-G2_       06lnz0row/pamnrow
+_ALVC-NL2_    _ALVC-BL2_    _ALVC-C2_   _ALVC-G2_   _ALVC-U2_     _CMAS-NL2_    _CMAS-BL2_    _CMAS-C2_   _CMAS-G2_       07alvcrow/cmasrow
+_ALIC-NL2_    _ALIC-BL2_    _ALIC-C2_   _ALIC-G2_   _ALIC-U2_     _ROOT-NL2_    _ROOT-BL2_    _ROOT-C2_   _ROOT-G2_       08alirow/rootrow
+_RSMN-NL2_    _RSMN-BL2_    _RSMN-C2_   _RSMN-G2_                 _QA50-NL2_    _QA50-BL2_    _QA50-C2_   _QA50-G2_       09rsmnrow/qa50row
+_VPDA-NL2_    _VPDA-BL2_    _VPDA-C2_   _VPDA-G2_                 _VPDB-NL2_    _VPDB-BL2_    _VPDB-C2_   _VPDB-G2_       10vpdarow/vpbprow
+_PSGA-NL2_    _PSGA-BL2_    _PSGA-C2_   _PSGA-NL2_                _PSGB-NL2_    _PSGB-BL2_    _PSGB-C2_   _PSGB-G2_       11psgarow/psgbrow
+_DRN-2_       _SDEP-2_      _FARE-2_    _DDEN-2_                                                                          12drnrow/sdeprow/farerow/ddenrow
+_XSLOPE-2_    _GRKF-2_      _MANN-2_    _KSAT-2_   1                                                                      13xslprow/grkfrow/manrow/WFCIROW/midrow
+_SAND1-2_     _SAND2-2_     _SAND3-2_                                                                                     14sand
+_CLAY1-2_     _CLAY2-2_     _CLAY3-2_                                                                                     15clay
+_ORGM1-2_     _ORGM2-2_     _ORGM3-2_                                                                                     16org
+_TBAR1-2_     _TBAR2-2_     _TBAR3-2_     _TCAN-2_      _TSNO-2_      _TPND-2_                                            17temperature-soil/can/sno/pnd
+_THLQ1-2_     _THLQ2-2_     _THLQ3-2_     _THIC1-2_     _THIC2-2_     _THIC3-2_   _ZPND-2_                                18soil moisture-soil/ice/pnd
+_RCAN-2_      _SCAN-2_      _SNO-2_       _ALBS-2_      _RHOS-2_      _GRO-2_                                             19rcan/scan/sno/albs/rho/gro
+          0         0         0         0         0         0                                                             20                                       | *
+          0         0         0         0         0         0                                                             21                                       | *
+          0         0         1         2005                                                                              22IHOUR/IMIN/IDAY/IYEAR                  | 4I10
+123456789*123456789*123456789*123456789*123456789*123456789*123456789*123
