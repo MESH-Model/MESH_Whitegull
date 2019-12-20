@@ -1,42 +1,55 @@
-## This repository is a template for individual MESH modelling projects and contain information about a basin and modelling activities conducted using MESH.
-
-- Each repository stored on GitHub is limited to **1 GB** (see [here](https://help.github.com/en/github/managing-large-files/what-is-my-disk-quota) for more details)
-- No one file may be larger than **100 MB**
-- Include large files in a .gitignore file and include a push/pull script corresponding to the storage location on a Server (e.g. Graham)
-  - For more information about .gitignore files, see the GitHub manual [here](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring) or a repoistory with some example .gitignore files [here](https://github.com/github/gitignore).
-
-To create a new basin repository:
-1. Click "Use this template" from the MESH_Project_Template repository page
-
-![](./UseTemplate.JPG)
-2. Name the new repository "MESH_Project_<Watershed Name>" (ex. "MESH_Project_Baker_Creek")
-
-3. Update the main "ReadMe.md" and "ProjectOverview.md" documents with project-specific information, and populate the folders.
-
-# Project Title
+# White Gull Creek Benchmark MESH Model
 
 ## Team
-  *Include the name of modeller(s), advisors, and other contributors involved in the project here, as well as key contact information*
+  Haley Brauner
+  Menna Elrashidy
+  Sujan Basnet
+  Andrew Ireson
 
 ## Date
-*Date(s) of the project*
+Dec. 2019 through 2020
 
 ## Purpose
-  *Give a brief summary of the purpose of the modelling project here*
+  To develop a benchmark MESH configuration for research modelling work in the White Gull Creek basin as part of a number of Master's projects.
 
 ## Objectives and Main Tasks
   *List the objectives of the modelling, as well as a summary of the project structure and tasks completed*
 
 ## Basin Meta-data
-*Include a link to the MESH Wiki "Basin Meta-data" page, if created. Otherwise, link to a "Basin_Metadata.md" file in the "Site" folder
+*Include a link to the MESH Wiki "Basin Meta-data" page, if created. Otherwise, link to a "Basin_Metadata.md" file in the "Site" folder*
 
-[Basin Meta-data on MESH Wiki Page](https://wiki.usask.ca/display/MESH/Basin+Meta-data) *Update to go directly to the basin page*
+[Basin Meta-data on MESH Wiki Page](https://wiki.usask.ca/display/MESH/White+Gull+Creek+Basin) *Update to go directly to the basin page*
 
 [Basin Meta-data File](https://github.com/HaleyBrauner/MESH_Repo_Template/blob/master/Site/BasinMetaData.md)
 
 ## Progress / Conclusion
-*Include periodic updates on the modelling progress here, or even just "in progress"*
-*Include the main findings of the modelling, and further recommendations*
+December 5, 2019 - Haley initiated development of the model setup
+
+## Decisions to be made
+- Grid origin and resolution
+  - Menna: lumped for whole basin (1 grid cell)
+- GRU selection
+  - By ecodistrict, landcover, etc?
+  - Propose 2 GRUs (by ecodistrict), based on results by Mkandla (Scenarios 4 and 5), as well as the methodology used in Davison et al 2016 (though Davison had basin-wide veg. parameters but different soils per GRU)
+- Forcing data:
+  - Source(s): OJP and OBS?
+  - Gridded or uniform (or by Ecozone)?
+  - Period of interest?
+- Starting model parameters
+- Algorithms to use (e.x. runoff, baseflow, frozen soils, etc.)
+- Version of the code
+  - Newest? (1593)
+- Perform calibrations?
+-
+
+### Data Sources
+| Data Type     | Davison et al 2016 | Notes  |
+| :------------ |:-------------| :-----|
+| Forcing      | OJP and OBS Data | Missing data filled based on regression relationship with other nearby BERMS towers |
+| Landcover  | NRCan LCC200-V  | Can we get the processed data from somewhere?? |
+| Topographic | CDED 1:50,000  |     |
+| Soil texture | AAFC | |
+| Grid resolution | 15km x 15 km | |
 
 ## References
 - List any scripts, packages, etc. used
@@ -91,6 +104,9 @@ Given the file size limitations of GitHub, only smaller files are stored here an
 
 - Output
   - *Includes the output files for the model configuration / each run*
+
+## Papers
+- *Contains literature used to inform the model configuration*
 
 ## Presentations
 - *Contains powerpoint (or similar), poster, or other presentations or reports related to the project (formal or otherwise)*
