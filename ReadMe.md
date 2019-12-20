@@ -1,10 +1,7 @@
 # White Gull Creek Benchmark MESH Model
 
 ## Team
-  Haley Brauner
-  Menna Elrashidy
-  Sujan Basnet
-  Andrew Ireson
+  Haley Brauner, Menna Elrashidy, Sujan Basnet, Andrew Ireson
 
 ## Date
 Dec. 2019 through 2020
@@ -18,16 +15,16 @@ Dec. 2019 through 2020
 ## Basin Meta-data
 *Include a link to the MESH Wiki "Basin Meta-data" page, if created. Otherwise, link to a "Basin_Metadata.md" file in the "Site" folder*
 
-[Basin Meta-data on MESH Wiki Page](https://wiki.usask.ca/display/MESH/White+Gull+Creek+Basin) *Update to go directly to the basin page*
+[Basin Meta-data on MESH Wiki Page](https://wiki.usask.ca/display/MESH/White+Gull+Creek+Basin) *Still to update*
 
-[Basin Meta-data File](https://github.com/HaleyBrauner/MESH_Repo_Template/blob/master/Site/BasinMetaData.md)
+[Basin Meta-data File](https://github.com/HaleyBrauner/MESH_Repo_Template/blob/master/Site/BasinMetaData.md) *Not yet populated*
 
 ## Progress / Conclusion
-December 5, 2019 - Haley initiated development of the model setup
+- Point mode at the OBS site is in progress as of Dec. 20, 2019
+  - Will test out frozen soil algorithm
+- GRU-based setup to be developed at a later date
 
 ## Decisions to be made
-- Grid origin and resolution
-  - Menna: lumped for whole basin (1 grid cell)
 - GRU selection
   - By ecodistrict, landcover, etc?
   - Propose 2 GRUs (by ecodistrict), based on results by Mkandla (Scenarios 4 and 5), as well as the methodology used in Davison et al 2016 (though Davison had basin-wide veg. parameters but different soils per GRU)
@@ -35,17 +32,13 @@ December 5, 2019 - Haley initiated development of the model setup
   - Source(s): OJP and OBS?
   - Gridded or uniform (or by Ecozone)?
   - Period of interest?
-- Starting model parameters
 - Algorithms to use (e.x. runoff, baseflow, frozen soils, etc.)
-- Version of the code
-  - Newest? (1593)
-- Perform calibrations?
--
 
-### Data Sources
-| Data Type     | Davison et al 2016 | Notes  |
+
+### Data Sources used in Davison et al 2016
+| Data Type     | Source | Notes  |
 | :------------ |:-------------| :-----|
-| Forcing      | OJP and OBS Data | Missing data filled based on regression relationship with other nearby BERMS towers |
+| Forcing      | OJP and/or OBS Data | Missing data filled based on regression relationship with other nearby BERMS towers |
 | Landcover  | NRCan LCC200-V  | Can we get the processed data from somewhere?? |
 | Topographic | CDED 1:50,000  |     |
 | Soil texture | AAFC | |
