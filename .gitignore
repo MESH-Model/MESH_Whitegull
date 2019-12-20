@@ -4,7 +4,7 @@
 !.gitkeep
 
 # Ignore files in the Data/Raw folder
-Data/Raw/*
+# Data/Raw/*
 
 # Ignore processed driving data files (obtain from storage location with pull.sh)
 Data/Processed/*.csv
