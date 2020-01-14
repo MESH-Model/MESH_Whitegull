@@ -1,4 +1,0 @@
-          BIAS             NSD             NSW             TPD  
-   1.000000           -Infinity   -12.96998                   0 
-   1.000000           -Infinity   -12.96998                   0 
-   1.000000           -Infinity   -12.96998                   0 

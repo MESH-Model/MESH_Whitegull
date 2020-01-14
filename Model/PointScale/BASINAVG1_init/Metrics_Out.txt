@@ -1,2 +1,0 @@
-          Gauge             MAE            RMSE            BIAS         AbsBIAS             NSD          NegNSD           lnNSD        NeglnNSD             TPD             KGE          NegKGE 
-              1   0.9286273       0.9636531        1.000000        1.000000           -Infinity        Infinity  -0.7223784E+19   0.7223784E+19               0             NaN             NaN 

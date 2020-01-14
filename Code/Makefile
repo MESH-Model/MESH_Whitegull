@@ -10,7 +10,7 @@ objects1 = ../Data/Processed/Driving/basin_humidity.csv\
 
 objects2 = ForcingFilePrep.ipynb
 
-# If the notebook or files have chnaged, run the notebook to generate the 7 forcing data files for the model (csv)
+# If the notebook or files have changed, run the notebook to generate the 7 forcing data files for the model (csv)
 
 # Note: select one of the output files as the target; putting in a "dummy" target will run the makefile every time make is called, whether or not the prerequesite files have changed or not since the last run
 
