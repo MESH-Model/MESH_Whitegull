@@ -17,8 +17,11 @@ Model/MESH_Code/**/sa_mesh
 Model/MESH_Code/**/mpi_sa_mesh
 Model/Ostrich/OstrichGCC
 
-#Ignore all model output files
+# Ignore all model output files
 Model/Config*/Output/*
 
-#Ignore the GrahamConnect.sh files (these are just shortcuts for connecting to Graham)
+# Ignore the GrahamConnect.sh files (these are just shortcuts for connecting to Graham)
 GrahamConnect.sh
+
+# Don't put research papers on GitHub
+Papers/*
