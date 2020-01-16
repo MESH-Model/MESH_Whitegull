@@ -12,6 +12,10 @@ Dec. 2019 through 2020
 ## Objectives and Main Tasks
   *List the objectives of the modelling, as well as a summary of the project structure and tasks completed*
 
+## Configuration Notes
+Model/ReadMe.md
+Model/Config_PointScale/ReadMe.md
+
 ## Basin Meta-data
 *Include a link to the MESH Wiki "Basin Meta-data" page, if created. Otherwise, link to a "Basin_Metadata.md" file in the "Site" folder*
 
@@ -23,17 +27,6 @@ Dec. 2019 through 2020
 - Point mode at the OBS site is in progress as of Dec. 20, 2019
   - Will test out frozen soil algorithm
 - GRU-based setup to be developed at a later date
-
-## Decisions to be made
-- GRU selection
-  - By ecodistrict, landcover, etc?
-  - Propose 2 GRUs (by ecodistrict), based on results by Mkandla (Scenarios 4 and 5), as well as the methodology used in Davison et al 2016 (though Davison had basin-wide veg. parameters but different soils per GRU)
-- Forcing data:
-  - Source(s): OJP and OBS?
-  - Gridded or uniform (or by Ecozone)?
-  - Period of interest?
-- Algorithms to use (e.x. runoff, baseflow, frozen soils, etc.)
-
 
 ### Data Sources used in Davison et al 2016
 | Data Type     | Source | Notes  |
