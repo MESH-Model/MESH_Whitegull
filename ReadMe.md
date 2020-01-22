@@ -1,8 +1,5 @@
 # White Gull Creek Benchmark MESH Model
 
-## Team
-  Haley Brauner, Menna Elrashidy, Sujan Basnet, Andrew Ireson
-
 ## Date
 Dec. 2019 through 2020
 
