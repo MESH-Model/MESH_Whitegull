@@ -92,7 +92,7 @@ echo "The model results are saved in folder $Scenario"
 cd $DIR
 cp ../../Code/MESHPostProcess.ipynb $Scenario
 
-  # BROKEN
+  # BROKEN - need to run the post processing notebook from Jupyter directly (from the restuls folder)
   # Then navigate into the folder and run the script
 # cd $DIR/$Scenario
 # runipy MESHPostProcess.ipynb
