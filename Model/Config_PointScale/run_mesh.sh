@@ -18,7 +18,8 @@ echo "MESH starting at $DateStart"
 echo "===================="
 
 # Run MESH
-../MESH_Code/r1593/sa_mesh || true
+# ../MESH_Code/r1593/sa_mesh || true
+../MESH_Code/r1606/sa_mesh || true
 
 # Obtain end date/time and time in seconds for diff
 

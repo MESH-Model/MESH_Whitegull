@@ -53,7 +53,7 @@ chmod +x run_mesh.sh
 cd $DIR
 
 # a)
-cd ../MESH_Code/r1593
+cd ../MESH_Code/r1606
 if [[ ! -x sa_mesh ]] ; then # If sa_mesh is not found or not executable
   make
 fi
@@ -70,6 +70,7 @@ cd $DIR
 
   # a) To run on local machine
 ./run_mesh.sh
+    # Should really move the code from ./run_mesh.sh here to avoid duplication
 
   # b) To run on Plato or Graham
 # ./submitjob.sh
