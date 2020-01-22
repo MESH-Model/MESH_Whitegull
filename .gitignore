@@ -25,3 +25,4 @@ GrahamConnect.sh
 
 # Don't put research papers on GitHub
 Papers/
+!Papers/FROZEN*.pdf
