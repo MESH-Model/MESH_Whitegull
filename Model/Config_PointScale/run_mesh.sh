@@ -3,7 +3,7 @@
 set -e # Will cause the script to stop if it encounters an error
 
 # Remove existing output files (-f in case they don't exist)
-rm -f BASINAVG1/* CLASSOUT/* abserr.txt drms.txt function_out.txt Metrics_Out.txt MonteCarlo.txt NS*.txt
+rm -f BASINAVG1/*.csv BASINAVG1/*.txt CLASSOUT/* abserr.txt drms.txt function_out.txt Metrics_Out.txt MonteCarlo.txt NS*.txt
 
 # Create the BASINAVG1 folder if it doesn't exist
 # if [[ ! -f BASINAVG1 ]] ; then
