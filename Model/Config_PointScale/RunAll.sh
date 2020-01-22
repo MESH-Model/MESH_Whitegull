@@ -3,7 +3,7 @@
 # ===================================================================================================================================
 # This file executes pre-processing scripts and makefiles, runs MESH, and then runs post-processing scripts to generate outputs.
 
-# PLEASE NOTE: A scenario or run identifier may be passed as an arguement when calling the script (example: ./RunAll.sh ScenarioA ). A folder with this name will be created, and the outputs copied there after running MESH.
+# ****TO RUN****: A scenario or run identifier should be passed as an arguement when calling the script (example: ./RunAll.sh ScenarioA ). A folder with this name will be created, and the outputs copied there after running MESH.
 
 # ===================================================================================================================================
 
@@ -88,4 +88,12 @@ cp -r BASINAVG1/* MESH_*.ini $Scenario
 echo "The model results are saved in folder $Scenario"
 
 # 7. Run the post-processing script
-# TBD
+  # First, copy the file from the "Code" folder to the results folder
+cd $DIR
+cp ../../Code/MESHPostProcess.ipynb $Scenario
+
+  # BROKEN
+  # Then navigate into the folder and run the script
+# cd $DIR/$Scenario
+# runipy MESHPostProcess.ipynb
+# jupyter nbconvert --execute --allow-errors MESHPostProcess.ipynb
